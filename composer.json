@@ -1,0 +1,36 @@
+{
+	"name": "deable/redis-storage",
+	"type": "library",
+	"description": "Simplest way to use redis cache storage on your nette project.",
+	"keywords": [
+		"nette",
+		"cache",
+		"redis"
+	],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Lukas Povoda",
+			"email": "lupo112@gmail.com"
+		}
+	],
+	"require": {
+		"php": ">= 7.4",
+		"deable/redis-cache": "^1.0",
+		"nette/caching": "^3.0"
+	},
+	"archive": {
+		"exclude": [
+			".gitignore",
+			".editorconfig",
+			"*.md",
+			"*.yml",
+			"*.xml"
+		]
+	},
+	"autoload": {
+		"psr-4": {
+			"Deable\\RedisStorage\\": "src"
+		}
+	}
+}
