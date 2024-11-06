@@ -2,9 +2,12 @@
 
 declare(strict_types=1);
 
+namespace Deable\RedisStorage;
+
 use Deable\Redis\RedisClient;
 use Deable\RedisCache\RedisCache;
 use Nette\Caching\Storage;
+use RuntimeException;
 
 /**
  * Class RedisStorage
